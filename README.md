@@ -1,3 +1,7 @@
+Live Application:
+
+https://vikas-elle-lab-3.onrender.com/
+
 # Lab 3: REST API, Query Parameters, Validation and Debugging
 
 ## Student Details
@@ -8,9 +12,6 @@
 | Registration Number | 252U1R5042                       |
 | Section             | 106 AIDE-2A                      |
 | Course              | Backend Development Fundamentals |
-| Year / Term         | Year II – Term II                |
-| Institution         | Aurora                           |
-| Faculty             | Joel Prashanth D.                |
 
 ---
 
