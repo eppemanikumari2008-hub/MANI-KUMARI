@@ -1,6 +1,6 @@
-Live Application:
+﻿Live Application:
 
-https://vikas-elle-lab-3.onrender.com/
+https://Manikumari-elle-lab-3.onrender.com/
 
 # Lab 3: REST API, Query Parameters, Validation and Debugging
 
@@ -8,7 +8,7 @@ https://vikas-elle-lab-3.onrender.com/
 
 | Field               | Details                          |
 | ------------------- | -------------------------------- |
-| Name                | Vikas Elle                       |
+| Name                | Manikumari                       |
 | Registration Number | 252U1R5042                       |
 | Section             | 106 AIDE-2A                      |
 | Course              | Backend Development Fundamentals |
@@ -36,41 +36,41 @@ The API allows users to perform CRUD (Create, Read, Update and Delete) operation
 
 ## 3. Technologies Used
 
-* Node.js – JavaScript runtime environment.
-* Express.js – Backend web framework.
-* SQLite – Relational database.
-* sqlite3 – SQLite database driver.
-* sqlite – Promise-based SQLite library.
-* Postman – API testing tool.
-* Git and GitHub – Version control and source code management.
-* Render – Application deployment platform.
+* Node.js â€“ JavaScript runtime environment.
+* Express.js â€“ Backend web framework.
+* SQLite â€“ Relational database.
+* sqlite3 â€“ SQLite database driver.
+* sqlite â€“ Promise-based SQLite library.
+* Postman â€“ API testing tool.
+* Git and GitHub â€“ Version control and source code management.
+* Render â€“ Application deployment platform.
 
 ## 4. Project Structure
 
 ```text
 Lab-Report-3/
-│
-├── server.js
-├── books.db
-├── package.json
-├── package-lock.json
-├── .gitignore
-├── README.md
-│
-└── screenshots/
-    ├── database-schema.png
-    ├── get-all-books.png
-    ├── get-book-by-id.png
-    ├── search-book.png
-    ├── sort-books.png
-    ├── pagination.png
-    ├── price-filter.png
-    ├── post-book.png
-    ├── post-validation.png
-    ├── put-book.png
-    ├── put-book-not-found.png
-    ├── delete-book.png
-    └── delete-book-not-found.png
+â”‚
+â”œâ”€â”€ server.js
+â”œâ”€â”€ books.db
+â”œâ”€â”€ package.json
+â”œâ”€â”€ package-lock.json
+â”œâ”€â”€ .gitignore
+â”œâ”€â”€ README.md
+â”‚
+â””â”€â”€ screenshots/
+    â”œâ”€â”€ database-schema.png
+    â”œâ”€â”€ get-all-books.png
+    â”œâ”€â”€ get-book-by-id.png
+    â”œâ”€â”€ search-book.png
+    â”œâ”€â”€ sort-books.png
+    â”œâ”€â”€ pagination.png
+    â”œâ”€â”€ price-filter.png
+    â”œâ”€â”€ post-book.png
+    â”œâ”€â”€ post-validation.png
+    â”œâ”€â”€ put-book.png
+    â”œâ”€â”€ put-book-not-found.png
+    â”œâ”€â”€ delete-book.png
+    â””â”€â”€ delete-book-not-found.png
 ```
 
 ## 5. Database Design
@@ -104,13 +104,13 @@ The project uses an SQLite database named `books.db`.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/vikas01-design/Vikas-Elle-Lab-3.git
+git clone https://github.com/Manikumari01-design/Manikumari-Elle-Lab-3.git
 ```
 
 ### Step 2: Navigate to the Project Directory
 
 ```bash
-cd Vikas-Elle-Lab-3
+cd Manikumari-Elle-Lab-3
 ```
 
 ### Step 3: Install Dependencies
@@ -139,7 +139,7 @@ Base URL:
 http://localhost:3000
 ```
 
-### 7.1 GET – Retrieve All Books
+### 7.1 GET â€“ Retrieve All Books
 
 **Endpoint:**
 
@@ -154,7 +154,7 @@ Retrieves all books from the database.
 <img width="1917" height="1023" alt="get-all-books" src="https://github.com/user-attachments/assets/0756d69a-bb67-4990-bd7c-da480e3f06bb" />
 
 
-### 7.2 GET – Retrieve Book by ID
+### 7.2 GET â€“ Retrieve Book by ID
 
 **Endpoint:**
 
@@ -169,7 +169,7 @@ Retrieves a specific book using its ID.
 <img width="1907" height="1020" alt="get-book-by-id" src="https://github.com/user-attachments/assets/97b2e368-1382-47f5-8004-e86b4534ea7c" />
 
 
-### 7.3 GET – Search Books
+### 7.3 GET â€“ Search Books
 
 **Endpoint:**
 
@@ -184,7 +184,7 @@ Searches for books using a partial title match with the SQL LIKE operator.
 <img width="1911" height="1006" alt="search-book" src="https://github.com/user-attachments/assets/3ce1a541-0b1c-4443-a2fa-cbf65efc5bd9" />
 
 
-### 7.4 GET – Sort Books
+### 7.4 GET â€“ Sort Books
 
 **Endpoint:**
 
@@ -196,15 +196,15 @@ Sorts books using the selected column and sorting order.
 
 Supported sorting orders:
 
-* ASC – Ascending order.
-* DESC – Descending order.
+* ASC â€“ Ascending order.
+* DESC â€“ Descending order.
 
 **Screenshot:**
 
 <img width="1912" height="1008" alt="sort-books" src="https://github.com/user-attachments/assets/cdb35bbd-dc03-4068-8f61-433bbb809cb5" />
 
 
-### 7.5 GET – Pagination
+### 7.5 GET â€“ Pagination
 
 **Endpoint:**
 
@@ -222,7 +222,7 @@ Uses limit and offset to retrieve a specific number of records.
 <img width="1912" height="1015" alt="pagination" src="https://github.com/user-attachments/assets/3a85d267-7b29-40a0-980a-72885cc5a726" />
 
 
-### 7.6 GET – Price Range Filtering
+### 7.6 GET â€“ Price Range Filtering
 
 **Endpoint:**
 
@@ -237,7 +237,7 @@ Filters books based on minimum and maximum price values.
 <img width="1917" height="1013" alt="price-filter" src="https://github.com/user-attachments/assets/7fc779e9-c483-4e8c-a9e8-9156c497f7ed" />
 
 
-### 7.7 POST – Add a New Book
+### 7.7 POST â€“ Add a New Book
 
 **Endpoint:**
 
@@ -265,7 +265,7 @@ Adds a new book to the database.
 <img width="1917" height="1028" alt="post-book" src="https://github.com/user-attachments/assets/dcafa797-27b2-454c-8912-c2cc98168f7d" />
 
 
-### 7.8 POST – Request Validation
+### 7.8 POST â€“ Request Validation
 
 The API validates incoming request data.
 
@@ -283,7 +283,7 @@ It rejects:
 <img width="1913" height="1011" alt="post-validation" src="https://github.com/user-attachments/assets/63f938cb-6a8a-42c5-9bbb-fcab607cbd67" />
 
 
-### 7.9 PUT – Update an Existing Book
+### 7.9 PUT â€“ Update an Existing Book
 
 **Endpoint:**
 
@@ -311,7 +311,7 @@ Updates the details of an existing book.
 <img width="1912" height="1017" alt="put-book" src="https://github.com/user-attachments/assets/f2c45e9a-204a-489c-ac0a-cc424ef794c4" />
 
 
-### 7.10 PUT – Book Not Found
+### 7.10 PUT â€“ Book Not Found
 
 When the requested book ID does not exist, the API returns:
 
@@ -322,7 +322,7 @@ When the requested book ID does not exist, the API returns:
 <img width="1912" height="1017" alt="put-book-not-found" src="https://github.com/user-attachments/assets/b84c9391-4c71-418d-ad04-cc8efcc453be" />
 
 
-### 7.11 DELETE – Delete a Book
+### 7.11 DELETE â€“ Delete a Book
 
 **Endpoint:**
 
@@ -339,7 +339,7 @@ Deletes a book from the database using its ID.
 <img width="1917" height="1021" alt="delete-book" src="https://github.com/user-attachments/assets/61cf573e-82bf-49ec-a05e-530e1893743a" />
 
 
-### 7.12 DELETE – Book Not Found
+### 7.12 DELETE â€“ Book Not Found
 
 When the requested book ID does not exist, the API returns:
 
@@ -354,7 +354,7 @@ When the requested book ID does not exist, the API returns:
 
 During the development of the REST API, the following common Node.js and database errors were studied along with their solutions.
 
-### 1. EADDRINUSE – Port Conflict
+### 1. EADDRINUSE â€“ Port Conflict
 
 **Problem:** This error occurs when another application is already using the same port.
 
@@ -394,9 +394,9 @@ Parameterized SQL queries are used for database operations.
 
 Examples include:
 
-* `db.all()` – Retrieve multiple book records.
-* `db.get()` – Retrieve a single book record.
-* `db.run()` – Insert, update and delete book records.
+* `db.all()` â€“ Retrieve multiple book records.
+* `db.get()` â€“ Retrieve a single book record.
+* `db.run()` â€“ Insert, update and delete book records.
 
 Using parameterized queries helps prevent SQL injection by separating user input from SQL commands.
 
@@ -406,11 +406,11 @@ The application is deployed using Render.
 
 **Live Application:**
 
-https://vikas-elle-lab-3.onrender.com/
+https://Manikumari-elle-lab-3.onrender.com/
 
 **GitHub Repository:**
 
-https://github.com/vikas01-design/Vikas-Elle-Lab-3
+https://github.com/Manikumari01-design/Manikumari-Elle-Lab-3
 
 ## 12. Testing
 
@@ -442,3 +442,5 @@ I learned how to implement query parameters, search, sorting, pagination and pri
 Additionally, I studied common debugging problems related to port conflicts, incorrect import paths, database table errors and missing await statements.
 
 This lab improved my understanding of backend API development, database integration, API testing and application deployment.
+
+
