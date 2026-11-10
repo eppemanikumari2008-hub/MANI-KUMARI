@@ -58,19 +58,19 @@ Lab-Report-3/
 â”œâ”€â”€ README.md
 â”‚
 â””â”€â”€ screenshots/
-    â”œâ”€â”€ database-schema.png
-    â”œâ”€â”€ get-all-books.png
-    â”œâ”€â”€ get-book-by-id.png
-    â”œâ”€â”€ search-book.png
-    â”œâ”€â”€ sort-books.png
-    â”œâ”€â”€ pagination.png
-    â”œâ”€â”€ price-filter.png
-    â”œâ”€â”€ post-book.png
-    â”œâ”€â”€ post-validation.png
-    â”œâ”€â”€ put-book.png
-    â”œâ”€â”€ put-book-not-found.png
-    â”œâ”€â”€ delete-book.png
-    â””â”€â”€ delete-book-not-found.png
+    â”œâ”€â”€ manikumari-manikumari-database-schema.png
+    â”œâ”€â”€ manikumari-get-all-books.png
+    â”œâ”€â”€ manikumari-manikumari-get-book-by-id.png
+    â”œâ”€â”€ manikumari-manikumari-search-book.png
+    â”œâ”€â”€ manikumari-manikumari-sort-books.png
+    â”œâ”€â”€ manikumari-manikumari-pagination.png
+    â”œâ”€â”€ manikumari-manikumari-price-filter.png
+    â”œâ”€â”€ manikumari-manikumari-post-book.png
+    â”œâ”€â”€ manikumari-manikumari-post-validation.png
+    â”œâ”€â”€ manikumari-manikumari-put-book.png
+    â”œâ”€â”€ manikumari-manikumari-put-book-not-found.png
+    â”œâ”€â”€ manikumari-manikumari-delete-book.png
+    â””â”€â”€ manikumari-manikumari-delete-book-not-found.png
 ```
 
 ## 5. Database Design
@@ -442,5 +442,18 @@ I learned how to implement query parameters, search, sorting, pagination and pri
 Additionally, I studied common debugging problems related to port conflicts, incorrect import paths, database table errors and missing await statements.
 
 This lab improved my understanding of backend API development, database integration, API testing and application deployment.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
